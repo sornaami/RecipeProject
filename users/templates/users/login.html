@@ -5,11 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Register Here</h1>
+<h1>Login Here</h1>
 <form method="post">
-    {{%csrf_token%}}
+    {%csrf_token%}
     {{form.as_p}}
-  <input type="submit">
+    <input type="submit">
+
 </form>
 
 </body>
